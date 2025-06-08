@@ -1,9 +1,9 @@
 
 function Contact() {
     return (
-        <section className="bg-[#006ABC] lg:flex text-[#FFFFFF] lg:px-36 md:px-16 px-5 py-20">
-            <div className="lg:w-[40%]">
-                <h2 className="text-4xl font-normal"><span className="border-b-2 border-gray-50 pb-2">Get</span> in touch</h2>
+        <section className="bg-[rgb(0,106,188)] flex flex-col lg:flex-row text-[#FFFFFF] lg:px-36 md:px-16 px-5 py-20">
+            <div className="lg:w-[40%] order-2 lg:order-1 ">
+                <h2 className="text-4xl font-normal hidden lg:block"><span className="border-b-2 border-gray-50 pb-2">Get</span> in touch</h2>
                 <ul className="space-y-5 pt-10 ">
                     <li className="text-xl">For general enquiries</li>
                     <li> <span className="text-xl">Address :</span> <br />
@@ -16,7 +16,8 @@ function Contact() {
 
                 </ul>
             </div>
-            <div className="lg:w-[60%]">
+            <div className="lg:w-[60%] lg:order-2 order-1">
+                <h2 className="text-4xl font-normal lg:hidden block pb-10"><span className="border-b-2 border-gray-50 pb-2">Get</span> in touch</h2>
                 <form className="space-y-3">
                     {/* Full Name */}
                     <div>
@@ -67,7 +68,7 @@ function Contact() {
                     <div className="pt-4">
                         <button
                             type="submit"
-                            className=" hover:bg-white hover:text-black bg-transparent border-2 border-white text-white font-semibold px-8 py-3 rounded-xl transition"
+                            className=" hover:bg-white hover:text-black bg-transparent border-2 border-white text-white font-semibold px-8 py-3 rounded-xl transition duration-300"
                         >
                             Send
                         </button>
