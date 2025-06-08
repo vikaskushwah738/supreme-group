@@ -29,7 +29,7 @@ export default function HeroSection() {
         //         </h2>
         //     </div>
         // </section>
-        <section className="relative h-screen overflow-hidden pt-16 bg-blue-950">
+        <section className="relative lg:h-screen h-[450px] overflow-hidden pt-16 bg-blue-950">
             {/* Background Video */}
             <div className="absolute inset-0">
                 <video

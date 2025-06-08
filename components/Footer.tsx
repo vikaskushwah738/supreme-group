@@ -38,13 +38,13 @@ const Footer = () => {
                             <Link href="/">Apparel</Link>
                         </li>
                         <li className="pt-3">
-                            <Link href="/about-us">Automotive</Link>
+                            <Link href="/">Automotive</Link>
                         </li>
                         <li className="pt-3">
-                            <Link href="/blog">Filtration</Link>
+                            <Link href="/">Filtration</Link>
                         </li>
                         <li className="pt-3">
-                            <Link href="/services">Customised Nonwoven</Link>
+                            <Link href="/">Customised Nonwoven</Link>
                         </li>
                     </ul>
                 </div>
@@ -58,13 +58,13 @@ const Footer = () => {
                             <Link href="/">Who We Are</Link>
                         </li>
                         <li className="pt-3">
-                            <Link href="/about-us">Global Compentency</Link>
+                            <Link href="/">Global Compentency</Link>
                         </li>
                         <li className="pt-3">
-                            <Link href="/blog">Innovation</Link>
+                            <Link href="/">Innovation</Link>
                         </li>
                         <li className="pt-3">
-                            <Link href="/services">ESG Impact</Link>
+                            <Link href="/">ESG Impact</Link>
                         </li>
                     </ul>
                 </div>
@@ -75,10 +75,10 @@ const Footer = () => {
                     </div>
                     <ul className="space-y-2">
                         <li className="pt-3">
-                            <Link href="/services/website-development">Contact Us</Link>
+                            <Link href="/">Contact Us</Link>
                         </li>
                         <li className="pt-3">
-                            <Link href="/services/mobile-applications-development">Careers</Link>
+                            <Link href="/">Careers</Link>
                         </li>
                     </ul>
                 </div>
@@ -89,7 +89,7 @@ const Footer = () => {
                     </div>
                     <div className="flex gap-5 justify-center items-center mb-10 pt-3">
                         <Link
-                            href="https://www.facebook.com/soEffortsSolution/"
+                            href="https://www.facebook.com"
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label="Facebook account for Supreme Group"
@@ -107,7 +107,7 @@ const Footer = () => {
                             <FaInstagram size={30} />
                         </Link>
                         <Link
-                            href="https://www.linkedin.com/company/so-efforts-solution/"
+                            href="https://www.linkedin.com"
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label="Linkedin account for Supreme Group"
@@ -116,7 +116,7 @@ const Footer = () => {
                             <FaLinkedin size={30} />
                         </Link>
                         <Link
-                            href="https://twitter.com/so_efforts_solu"
+                            href="https://twitter.com"
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label="Twitter account for Supreme Group"
@@ -125,7 +125,7 @@ const Footer = () => {
                             <FaTwitter size={30} />
                         </Link>
                         <Link
-                            href="https://in.pinterest.com/soEffortsSolution/"
+                            href="https://in.pinterest.com"
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label="Pinterest account for Supreme Group"
