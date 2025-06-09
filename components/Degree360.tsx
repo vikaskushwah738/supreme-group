@@ -4,6 +4,7 @@ import { useRef, useState, useEffect } from "react";
 import Image from "next/image";
 
 export default function Degree360() {
+
     const passengerVideos = [
         { src: "/complete.mp4", thumbnail: "/complete-body.png", label: "Complete body" },
         { src: "/front.mp4", thumbnail: "/front.png", label: "Front" },
@@ -79,7 +80,7 @@ export default function Degree360() {
                 <span className="hidden md:block">comprehensive solutions</span>
             </h2>
 
-            {/* Fixed Button Panel */}
+            {/* Sticky Button Panel */}
             <div className="lg:sticky lg:mt-0 mt-20  lg:top-52 z-10 lg:w-[25%] flex flex-col items-start border-l-2 border-white pl-5">
                 <button
                     onClick={() => playAndScrollTo(video1Ref.current, sectionRef1.current, "passenger")}
