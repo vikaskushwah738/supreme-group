@@ -81,21 +81,21 @@ export default function Degree360() {
             </h2>
 
             {/* Sticky Button Panel */}
-            <div className="lg:sticky lg:mt-0 mt-20  lg:top-52 z-10 lg:w-[25%] flex flex-col items-start border-l-2 border-white pl-5">
+            <div className="lg:sticky lg:mt-0 mt-20  lg:top-52 z-10 lg:w-[25%] flex flex-col items-start">
                 <button
                     onClick={() => playAndScrollTo(video1Ref.current, sectionRef1.current, "passenger")}
-                    className={`text-2xl ${activeSection === "passenger" ? "text-white" : "text-gray-400"}`}
+                    className={`border-l-2 pl-5 transition-colors duration-300 text-2xl ${activeSection === "passenger" ? "text-white border-white" : "text-gray-400 border-gray-400"}`}
                 >
                     Passenger vehicles
                 </button>
-                <p className="pt-3">Revving up innovation from interior to exterior.</p>
+                <p className={`border-l-2 pl-5 pt-3 transition-colors duration-300 ${activeSection === "passenger" ? "text-white border-white" : "text-gray-400 border-gray-400"}`}>Revving up innovation from interior to exterior.</p>
                 <button
                     onClick={() => playAndScrollTo(video2Ref.current, sectionRef2.current, "commercial")}
-                    className={`pt-5 text-2xl ${activeSection === "commercial" ? "text-white" : "text-gray-400"}`}
+                    className={`border-l-2 pl-5 pt-5 text-2xl transition-colors duration-300 ${activeSection === "commercial" ? "text-white border-white" : "text-gray-400 border-gray-400"}`}
                 >
                     Commercial vehicles
                 </button>
-                <p className="pt-3">Advancing engineering for heavy-duty vehicles.</p>
+                <p className={`border-l-2 pl-5 pt-3 transition-colors duration-300 ${activeSection === "commercial" ? "text-white border-white" : "text-gray-400 border-gray-400"}`}>Advancing engineering for heavy-duty vehicles.</p>
             </div>
 
             {/* Passenger Vehicles Video Section */}
