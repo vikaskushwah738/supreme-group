@@ -10,7 +10,7 @@ export default function Degree360() {
         { src: "/front.mp4", thumbnail: "/front.png", label: "Front" },
         { src: "/Commercial-Cabin.mp4", thumbnail: "/cabin.png", label: "Cabin" },
         { src: "/trunk.mp4", thumbnail: "/trunk.png", label: "Trunk" },
-        { src: "/exterior.mp4", thumbnail: "/exterior.png", label: "Exterior" },
+        { src: "/extrior.mp4", thumbnail: "/exterior.png", label: "Exterior" },
     ];
     const commercialVideos = [
         { src: "/Commercial-Alpha.mp4", thumbnail: "/complete-body.png", label: "Complete body" },
